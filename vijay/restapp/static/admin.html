@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Sea Breeze</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #0056b3;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 10px auto;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .cooks {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .cook {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .cook img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .cook h4 {
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .cook p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Admin Panel - Sea Breeze</h1>
+    </header>
+
+  
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Welcome, Admin!</h2>
+
+        <!-- Section: Cooks -->
+        <div class="section">
+            <h3>Our Cooks</h3>
+            <div class="cooks">
+                <div class="cook">
+                    <img src="Damu.jpeg" alt="Cook 1">
+                    <h4>Chef Damu</h4>
+                    <p>Specialty: Italian Cuisine</p>
+                </div>
+                <div class="cook">
+                    <img src="rangaraj.jpeg" alt="Cook 2">
+                    <h4>Chef Madampatti Rangaraj</h4>
+                    <p>Specialty: Pastry and Desserts</p>
+                </div>
+                <div class="cook">
+                    <img src="Venkateshbatt.jpeg" alt="Cook 3">
+                    <h4>Chef Venkateshbatt</h4>
+                    <p>Specialty: French Cuisine</p>
+                </div>
+                 <div class="cook">
+                    <img src="cook4.jpeg" alt="Cook 4">
+                    <h4>Chef David</h4>
+                    <p>Specialty: French Cuisine</p>
+                </div>
+                <div class="cook">
+                    <img src="cook5.jpeg" alt="Cook 5">
+                    <h4>Chef Ahmed</h4>
+                    <p>Specialty: Middle Eastern Cuisine</p>
+                </div>
+                <div class="cook">
+                    <img src="cook6.jpeg" alt="Cook 6">
+                    <h4>Chef Emily</h4>
+                    <p>Specialty: Vegan Dishes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background: #ff7e5f;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .container h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .table-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .table {
+            width: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .table img {
+            width: 100%;
+            display: block;
+        }
+
+        .table p {
+            margin: 0;
+            padding: 10px;
+            background: #ff7e5f;
+            color: white;
+            font-weight: bold;
+        }
+
+        .booking-form {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .booking-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .booking-form input, .booking-form select, .booking-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .booking-form button {
+            background: #ff7e5f;
+            color: white;
+            font-size: 1em;
+            border: none;
+            cursor: pointer;
+        }
+
+        .booking-form button:hover {
+            background: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Your Table</h1>
+    </header>
+
+    <div class="container">
+        <h2>Available Tables</h2>
+        <div class="table-gallery">
+            <div class="table">
+                <img src="2table.jpg" alt="Table 1">
+                <p>Table 1 - For 2 People</p>
+            </div>
+            <div class="table">
+                <img src="4table.jpeg" alt="Table 2">
+                <p>Table 2 - For 4 People</p>
+            </div>
+            <div class="table">
+                <img src="6table.jpg" alt="Table 3">
+                <p>Table 3 - For 6 People</p>
+            </div>
+            <div class="table">
+                <img src="8table.jpg" alt="Table 4">
+                <p>Table 4 - Outdoor Seating</p>
+            </div>
+        </div>
+
+        <h2>Booking Form</h2>
+        <form class="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="table">Select Table:</label>
+            <select id="table" name="table">
+                <option value="table1">Table 1 - For 2 People</option>
+                <option value="table2">Table 2 - For 4 People</option>
+                <option value="table3">Table 3 - For 6 People</option>
+                <option value="table4">Table 4 - Outdoor Seating</option>
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Book Table</button>
+        </form>
+    </div>
+</body>
+</html>

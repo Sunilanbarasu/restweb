@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            fond color:yellow;
+background: url('menubg.jpeg') no-repeat center center/cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            color:red;
+            text-align: center;
+            
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            
+font-family: 'Vladimir Script';
+color: yellow;
+             font-size: 200px;
+text-decoration: underline;
+  text-decoration-style: double;
+text-decoration-thickness: 4px;
+  text-underline-offset: 50px;
+
+        }
+
+        .menu-item {
+            display: inline-block;
+            width: 30%;
+            margin: 20px 1%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            font-size: 1.2em;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .menu-item .item-name {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        .menu-item .item-price {
+            color: #2d8d8f;
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .menu-item {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .menu-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <h1>Our Menu</h1>
+        
+        
+        <div class="menu-item">
+            <img src="grilledsalamon.jpeg" alt="Grilled Salmon">
+            <div class="item-name">Grilled Salmon</div>
+            <div class="item-price">₹1200</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="chillycrab.jpeg" alt="Chilly Crab">
+            <div class="item-name">Chilly Crab</div>
+            <div class="item-price">₹800</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="lobster tandoori.jpeg" alt="Lobster Tandoori">
+            <div class="item-name">Lobster Tandoori</div>
+            <div class="item-price">₹1600</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="grilledswordfish.jpeg" alt="Grilled Sword Fish">
+            <div class="item-name">Grilled Sword Fish</div>
+            <div class="item-price">₹2000</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="searedtuna.jpeg" alt="Seared Tuna">
+            <div class="item-name">Seared Tuna</div>
+            <div class="item-price">₹2500</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="fish fry.jpg" alt="Fish Fry">
+            <div class="item-name">Fish Fry </div>
+            <div class="item-price">₹600</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="fish curry.jpeg" alt="Fish curry">
+            <div class="item-name">Fish curry</div>
+            <div class="item-price">₹550</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="prawncurry.jpeg" alt="Prawn Curry">
+            <div class="item-name">Prawn Curry</div>
+            <div class="item-price">₹1000</div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="mocktail.jpg" alt="Mocktail">
+            <div class="item-name">Mocktail</div>
+            <div class="item-price">₹500</div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
