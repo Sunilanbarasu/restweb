@@ -602,11 +602,18 @@ admin.html
     </style>
 </head>
 <body>
+
+    <!-- Header -->
     <header>
         <h1>Admin Panel - Sea Breeze</h1>
     </header>
+
+  
+    <!-- Main Content -->
     <div class="container">
         <h2>Welcome, Admin!</h2>
+
+        <!-- Section: Cooks -->
         <div class="section">
             <h3>Our Cooks</h3>
             <div class="cooks">
@@ -634,6 +641,11 @@ admin.html
                     <img src="cook5.jpeg" alt="Cook 5">
                     <h4>Chef Ahmed</h4>
                     <p>Specialty: Middle Eastern Cuisine</p>
+                </div>
+                <div class="cook">
+                    <img src="my.png" alt="Cook 5">
+                    <h4>Chef Sunil</h4>
+                    <p>Specialty: Manager</p>
                 </div>
                 <div class="cook">
                     <img src="cook6.jpeg" alt="Cook 6">
@@ -728,7 +740,7 @@ admin.html
 ![alt text](w2.png)
 ![alt text](w3.png)
 ![alt text](w5.png)
-![alt text](w4.png)
+![alt text](we5.png)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
